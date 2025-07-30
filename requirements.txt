@@ -3,7 +3,6 @@ jupyterlite-core==0.6.3
 jupyterlab~=4.4.3
 notebook~=7.4.3
 
-
 # Python kernel (optional)
 jupyterlite-pyodide-kernel==0.6.1
 
@@ -43,3 +42,23 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=6,<7
 bqplot
+matplotlib==3.9.2
+matplotlib-inline==0.1.6
+numpy==1.26.0
+pandas==2.1.0
+pydantic==2.8.2
+PyYAML==6.0.1
+requests==2.32.3
+requests-oauthlib==2.0.0
+urllib3==1.26.7
+scikit-learn==1.5.1
+seaborn==0.13.2
+statsmodels==0.13.5
+jupyterlab_server==2.27.3
+jupyterlab_widgets==3.0.13
+nbclassic==1.1.0
+nbconvert==7.16.4
+docopt==0.6.2
+pytest-xdist==3.3.1
+pyOpenSSL==24.2.1
+lxml==5.3.0

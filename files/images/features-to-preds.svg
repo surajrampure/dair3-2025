@@ -1,0 +1,33 @@
+<svg viewBox="0 110 600 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nice Features (rectangle - same as before) -->
+  <rect x="80" y="120" width="120" height="60" 
+        fill="#F3E5F5" 
+        stroke="#7B1FA2" 
+        stroke-width="2" 
+        rx="5"/>
+  
+  <!-- Nice Features text -->
+  <text x="140" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7B1FA2">Nice Features</text>
+  
+  <!-- Arrow from Nice Features to Predictions -->
+  <defs>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  
+  <line x1="220" y1="150" x2="340" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  
+  <!-- Predictions (rectangle) -->
+  <rect x="360" y="120" width="120" height="60" 
+        fill="#E8F5E8" 
+        stroke="#388E3C" 
+        stroke-width="2" 
+        rx="5"/>
+  
+  <!-- Predictions text -->
+  <text x="420" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#388E3C">Predictions</text>
+  
+  <!-- Process label -->
+  <text x="280" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Model Training</text>
+</svg>
